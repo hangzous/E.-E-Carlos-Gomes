@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* General */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgb(206, 231, 97) 0%, rgb(0, 162, 255) 100%);    
+    background-image: url('/images/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: -5px;
+}
+
+a, h2, p, i {
+    color: rgb(20, 20, 20);
+}
+
+/* Header */
+
+header {
+    background: rgb(255, 255, 255);
+}
+
+header #main_header {
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #header_links nav ul {
+    display: flex;
+}
+
+header #header_links nav ul li {
+    margin-left: 55px;
+}
+
+header #header_links nav ul li a {
+    font-size: 1.3rem;
+}
+
+header #header_links nav ul i {
+    font-size: 1.3rem;
+    margin-top: -1px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header #mobile_menu {
+    display: none;
+}
+
+/* Main */
+
+main {
+    padding: 60px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+main #main_title {
+    font-size: 2.1rem;
+    color: black;
+}
+
+main .contents {
+    width: 60%;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 1.4rem;
+}
+
+main .contents p {
+    line-height: 4vh;
+}
+
+main .icons {
+    margin-top: 50px;
+}
+
+main .icons i {
+    font-size: 3.5rem;
+    color: rgb(47, 47, 233);
+}
+
+main #credits {
+    background-color: white;
+    padding: 5px;
+    width: 300px;
+    margin: 26vh auto 0 auto;
+    border-radius: 5px;
+}
+
+main #credits p {
+    font-weight: 600;
+}
+
+main #credits a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+main #credits a:hover {
+    color: rgb(136, 108, 228);
+    transition: 0.3s ease;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(24, 22, 22);
+    padding: 15px;
+}
+
+footer #footer {
+    margin: auto;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer #logo {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-left: 2px solid white;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer #logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+footer #social_links {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+footer #social_links p {
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+footer #social_links nav ul li a,
+footer #social_links nav ul li span,
+footer #social_links nav ul li i {
+    color: white;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer #social_links nav ul li i {
+    padding-right: 15px;
+}
+
+footer #social_links nav ul li i.fa-whatsapp {
+    font-size: 1.6rem;
+}
+
+footer #social_links nav ul li i.fa-phone-alt {
+    font-size: 1.5rem;
+}
+
+footer #image_credits {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+footer #image_credits nav ul li,
+footer #image_credits p {
+    padding-bottom: 10px;
+}
+
+footer #image_credits p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+footer #image_credits nav ul li a {
+    color: white;
+    font-size: 1.4rem;
+}
