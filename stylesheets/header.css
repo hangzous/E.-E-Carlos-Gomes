@@ -1,0 +1,38 @@
+header {
+    background-color:rgb(29, 28, 28);
+}
+
+header #mobile_menu {
+    display: none;
+}
+
+header #header {
+    width: 90%;
+    margin: auto;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #carlos_gomes_name h1 a {
+    color: white;
+}
+
+header #header_links nav ul {
+    display: flex;
+}
+
+header #header_links nav ul li {
+    margin-left: 30px;
+}
+
+header #header_links nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+header #header_links nav ul i {
+    color: white;
+}
