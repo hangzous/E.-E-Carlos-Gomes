@@ -82,6 +82,10 @@ body {
     header #header_links nav ul li a {
         font-size: 1.2rem;
     }
+
+    header #header_links nav ul li a i {
+        top: 18px;
+    }
 }
 
 @media (max-width: 825px) {
