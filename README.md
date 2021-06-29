@@ -2,7 +2,7 @@
 
 Este site tem como objetivo trazer informações a respeito da **Escola Estadual Carlos Gomes**.
 
-Tecnologias utilizadas:
+## Tecnologias utilizadas:
  - HTML5
  - CSS3
  
