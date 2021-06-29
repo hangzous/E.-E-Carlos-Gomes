@@ -154,7 +154,11 @@ body {
 @media (max-width: 530px) {
     
     body {
-        background-size: 170%;
+        background-size: 185%;
+    }
+
+    main #main_title h1 {
+        line-height: 55px;
     }
 
     footer #logos div img {
