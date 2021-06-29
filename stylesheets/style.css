@@ -12,30 +12,36 @@
 }
 
 body {
-    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgb(206, 231, 97) 0%, rgb(0, 162, 255) 100%);    
-    background-image: url('/images/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
-    background-size: 110%;
+    /* background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgb(206, 231, 97) 0%, rgb(0, 162, 255) 100%);  */
+    background: url('/pasta_teste/images/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
+    background-size: 100%;
+    background-position-y: 0px;
     background-repeat: no-repeat;
-    background-position: -5px;
-}
-
-a, h2, p, i {
-    color: rgb(20, 20, 20);
 }
 
 /* Header */
 
 header {
-    background: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
+    background-color:rgb(29, 28, 28);
 }
 
-header #main_header {
-    width: 85%;
-    padding: 10px;
+header #mobile_menu {
+    display: none;
+}
+
+header #header {
+    width: 90%;
     margin: auto;
+    height: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+header #carlos_gomes_name h1 a {
+    /* color: black; */
+    color: white;
 }
 
 header #header_links nav ul {
@@ -43,166 +49,161 @@ header #header_links nav ul {
 }
 
 header #header_links nav ul li {
-    margin-left: 55px;
+    margin-left: 30px;
 }
 
 header #header_links nav ul li a {
-    font-size: 1.3rem;
+    /* color: black; */
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px;
 }
 
 header #header_links nav ul i {
-    font-size: 1.3rem;
-    margin-top: -1px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-header #mobile_menu {
-    display: none;
+    color: white;
 }
 
 /* Main */
 
-main {
-    padding: 60px;
-    width: 75%;
-    margin: auto;
+main #main {
+    width: 50%;
+    margin: 45px auto 20% auto;
     text-align: center;
 }
 
 main #main_title {
-    font-size: 2.1rem;
-    color: black;
-}
+    font-size: 1.5rem;
+    margin-bottom: 35px;
+} 
 
-main .contents {
-    width: 60%;
-    margin: 60px auto;
-    padding: 50px;
+main section {
     background-color: white;
     border-radius: 8px;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
-main .contents p {
-    line-height: 4vh;
+main section p {
+    line-height: 35px;
+    padding: 25px;
 }
 
-main .icons {
-    margin-top: 50px;
+main #icon {
+    padding-bottom: 25px;
 }
 
-main .icons i {
-    font-size: 3.5rem;
-    color: rgb(47, 47, 233);
-}
-
-main #credits {
-    background-color: white;
-    padding: 5px;
-    width: 300px;
-    margin: 26vh auto 0 auto;
-    border-radius: 5px;
-}
-
-main #credits p {
-    font-weight: 600;
-}
-
-main #credits a {
-    font-size: 1.1rem;
-    font-weight: bold;
-    transition: 0.3s ease;
-}
-
-main #credits a:hover {
-    color: rgb(136, 108, 228);
-    transition: 0.3s ease;
+main #icon i {
+    font-size: 2.5rem;
+    color: rgb(71, 74, 209);
 }
 
 /* Footer */
 
 footer {
-    background-color: rgb(24, 22, 22);
-    padding: 15px;
+    background-color:rgb(29, 28, 28);
+    padding-bottom: 25px;
+}
+
+footer #social_links,
+footer #image_credits,
+footer #logos  {
+    width: 100%;
 }
 
 footer #footer {
+    padding: 10px;
+    width: 90%;
     margin: auto;
-    width: 85%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
 }
 
-footer #logo {
-    padding-left: 50px;
-    padding-right: 50px;
-    border-left: 2px solid white;
-    border-right: 2px solid rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
+footer #logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer #logo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 150px;
-    border: 2px solid rgb(0, 0, 0);
+footer #logos img {
+    width: 110px;
+    border-radius: 65px;
 }
 
-footer #social_links {
-    padding-right: 10px;
-    padding-left: 10px;
+footer #logos .no_radius_img {
+    border-radius: 0px;
 }
 
 footer #social_links p {
     color: white;
-    font-size: 1.2rem;
-    padding-bottom: 5px;
     font-weight: 600;
 }
 
-footer #social_links nav ul li a,
-footer #social_links nav ul li span,
-footer #social_links nav ul li i {
-    color: white;
-    font-size: 1.4rem;
-    padding-bottom: 10px;
+footer #social_links ul li,
+footer #social_links p {
+    padding-left: 40px;
     padding-top: 10px;
-}
-
-footer #social_links nav ul li i {
-    padding-right: 15px;
-}
-
-footer #social_links nav ul li i.fa-whatsapp {
-    font-size: 1.6rem;
-}
-
-footer #social_links nav ul li i.fa-phone-alt {
-    font-size: 1.5rem;
-}
-
-footer #image_credits {
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-footer #image_credits nav ul li,
-footer #image_credits p {
     padding-bottom: 10px;
+    text-align: left;
+    width: 230px;
+    margin: auto;
+}
+
+footer #social_links ul li a,
+footer #social_links ul li span {
+    color: white;
+}
+
+footer #social_links ul li i {
+    color: white;
+    padding-right: 10px;
+}
+
+footer #image_credits li,
+footer #image_credits p {
+    width: 230px;
 }
 
 footer #image_credits p {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
-    font-size: 1.3rem;
+    margin: auto;
     font-weight: 600;
 }
 
-footer #image_credits nav ul li a {
+footer #image_credits ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    margin: auto;
+}
+
+footer #image_credits ul li a {
     color: white;
-    font-size: 1.4rem;
+    margin: auto;
+}
+
+footer #credits {
+    width: 350px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(149, 144, 144, 0.2);
+    border-radius: 8px;
+}
+
+footer #credits p {
+    padding: 15px;
+}
+
+footer #credits a {
+    color: white;
+    transition: 0.7s ease;
+}
+
+footer #credits a:hover {
+    color: rgb(136, 108, 228);
+    transition: 0.7s ease;
 }
