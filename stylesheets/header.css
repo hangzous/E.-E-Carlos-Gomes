@@ -30,7 +30,7 @@ header #header_links nav ul li {
 header #header_links nav ul li a {
     color: white;
     font-size: 1.2rem;
-    padding: 15px;
+    padding: 10px;
 }
 
 header #header_links nav ul li a i {
@@ -38,4 +38,10 @@ header #header_links nav ul li a i {
     padding-left: 10px;
     position: absolute;
     top: 15px;
+}
+
+header #header_links #close {
+    display: none;
+    color: white;
+    font-size: 1.4rem;
 }
