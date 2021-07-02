@@ -5,5 +5,6 @@ Este site tem como objetivo trazer informações a respeito da **Escola Estadual
 ## Tecnologias utilizadas:
 - HTML5
 - CSS3
+- JavaScript
  
  
