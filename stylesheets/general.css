@@ -114,25 +114,9 @@ body {
         flex-wrap: wrap;
         display: none;
     }
-
-    @keyframes effect {
-        0% {
-            transform: scaleY(0)
-        }
-
-        80% {
-            transform: scaleY(1)
-        }
-
-        100% {
-            transform: scaleY(1)
-        }
-    }
-    
+  
     header .active {
         display: flex;
-        animation: effect 300ms ease;
-        transform-origin: top center;
     }
 
     header #header_links nav {
