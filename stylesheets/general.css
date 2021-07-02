@@ -95,21 +95,49 @@ body {
     body {
         background: url('/pasta_teste/images/zaini-izzuddin-55btQzyDiO8-unsplash.jpg');
         background-color: rgb(229, 216, 213);
-        background-size: 130%;
+        background-size: 100%;
         background-repeat: no-repeat;
-        background-position-y: 100px;
+        background-position-y: 15%;
     }
 
     /* Header */
 
-    header #header_links {
+    header .default { 
         background-color: rgb(29, 28, 28);
-        box-shadow: 0px 5px 10px gray; 
-        border-radius: 8px;
-        width: 80%;
         position: absolute;
-        top: 90px;
-        left: 10%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    @keyframes effect {
+        0% {
+            transform: scaleY(0)
+        }
+
+        80% {
+            transform: scaleY(1)
+        }
+
+        100% {
+            transform: scaleY(1)
+        }
+    }
+    
+    header .active {
+        display: flex;
+        animation: effect 300ms ease;
+        transform-origin: top center;
+    }
+
+    header #header_links nav {
+        width: 70%;
+        margin: auto;
     }
 
     header #header_links nav ul {
@@ -124,7 +152,7 @@ body {
         display: block;
         text-align: right;
         margin-top: 6px;
-        margin-right: 10px;
+        margin-right: 45px;
     }
 
     header #header_links #close i {
@@ -133,11 +161,11 @@ body {
     }
 
     header #header_links nav ul li {
-        margin: 5px auto 30px 100px;
+        margin: 5px auto 30px auto;
         text-align: center;
         background-color: rgb(136, 132, 132);
         border-radius: 5px;
-        padding: 5px;
+        padding: 10px;
         width: 200px;
     }
 
@@ -147,8 +175,8 @@ body {
     }
 
     header #mobile_menu {
-        display: contents;
-        font-size: 1.3rem;
+        display: block;
+        font-size: 1.8rem;
         color: white;
     }
 
@@ -176,6 +204,10 @@ body {
         background-size: 185%;
     }
 
+    header #header_links #close {
+        margin-right: 45px;
+    }
+
     main #main_title h1 {
         line-height: 55px;
     }
@@ -186,5 +218,12 @@ body {
 
     footer #credits {
         width: 85%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    header #header_links #close {
+        margin-right: 25px;
     }
 }
