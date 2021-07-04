@@ -131,7 +131,7 @@ body {
     
     header .active {
         display: flex;
-        animation: effect 300ms ease;
+        animation: effect .4s ease;
         transform-origin: top center;
     }
 
@@ -187,13 +187,13 @@ body {
 
     /* Main */
 
-    main #main_title {
-        font-size: 1.2rem;
-    }
-
     main #main {
         width: 80%;
         margin: 45px auto 40% auto;
+    }
+
+    main #main_title {
+        font-size: 1.2rem;
     }
 
 }
