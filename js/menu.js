@@ -10,5 +10,5 @@ hamburger.addEventListener('click', () => {
 
 close_menu.addEventListener('click', () => {
     header_links.classList.toggle('active')
-    document.body.style.overflowY = 'scroll';
+    document.body.style.overflowY = 'auto'
 })
