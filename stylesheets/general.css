@@ -10,7 +10,7 @@
 }
 
 body {
-    background: url('/pasta_teste/images/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
+    background: url('/images/priscilla-du-preez-ggeZ9oyI-PE-unsplash.jpg');
     background-size: 100%;
     background-position-y: 0px;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body {
     /* General */
 
     body {
-        background: url('/pasta_teste/images/zaini-izzuddin-55btQzyDiO8-unsplash.jpg');
+        background: url('/images/zaini-izzuddin-55btQzyDiO8-unsplash.jpg');
         background-color: rgb(229, 216, 213);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -166,12 +166,13 @@ body {
         background-color: rgb(136, 132, 132);
         border-radius: 5px;
         padding: 10px;
-        width: 200px;
+        width: 170px;
     }
 
     header #header_links nav ul li a {
         font-weight: bold;
         color: rgb(255, 255, 255);
+        font-size: 1.4rem;
     }
 
     header #mobile_menu {
@@ -227,3 +228,6 @@ body {
         margin-right: 25px;
     }
 }
+
+
+

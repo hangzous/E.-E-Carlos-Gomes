@@ -1,0 +1,54 @@
+main #main {
+    width: 70%;
+    margin: 45px auto 260px auto;
+    text-align: center;
+}
+
+main #main_title {
+    font-size: 1.5rem;
+    margin-bottom: 35px;
+} 
+
+/* Add post button */
+
+#add_post {
+    background-color: rgb(105, 102, 102);    
+    width: 55px;
+    padding: 5px;
+    font-size: 2.3rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* Posts */
+
+section {
+    margin-top: 15px;
+}
+
+section div.post {
+    margin-top: 35px;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: left;
+    background-color: white;
+}
+
+section div.post h4 {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+section div.post p {
+    margin-top: 10px;
+}
+
+@media (min-width: 825px) {
+    body {
+        background: none;
+    }
+}
