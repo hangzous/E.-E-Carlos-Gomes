@@ -37,8 +37,20 @@ div.eletiva h3 {
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 520px) {
     body {
-        background-size: 250%;
+        background-size: 260%;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background-size: 290%;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        background-size: 330%;
     }
 }
